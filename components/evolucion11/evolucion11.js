@@ -1,7 +1,7 @@
 let DOM_evolucion11 = document.querySelector("#evolucion11");
 DOM_evolucion11.innerHTML = `
     <section class="separador">
-        <div class="container">
+        <div class="container88">
             <div class="header845">🎶 Evolución de la Música 🎶</div>
             <div class="antiguedad">
                 <h1 class="titulo55">🪈Antigüedad🪈</h1>
