@@ -41,11 +41,11 @@
     width: 50%;
 }
 
-.tline.left {
+.tline.l {
     left: 0;
 }
 
-.tline.right {
+.tline.r {
     left: 50%;
 }
 
@@ -62,7 +62,7 @@
     z-index: 1;
 }
 
-.tline.right::after {
+.tline.r::after {
     left: -16px;
 }
 
@@ -74,11 +74,11 @@
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-.tline.left .tl-c {
+.tline.l .tl-c {
     text-align: right;
 }
 
-.tline.right .tl-c {
+.tline.r .tl-c {
     text-align: left;
 }
 
@@ -109,19 +109,19 @@
         padding-right: 30px;
     }
 
-    .tline.left, .tline.right {
+    .tline.l, .tline.r {
         left: 0;
     }
 
-    .tline::after, .tline.right::after {
-        display: none; /* Ocultar la línea indicadora */
+    .tline::after, .tline.r::after {
+        display: none;
     }
 
     .tl::after {
-        display: none; /* Ocultar la línea vertical */
+        display: none;
     }
 
-    .tline .left .tl-c, .tline .right .tl-c {
+    .tline .l .tl-c, .tline .r .tl-c {
         text-align: center;
     }
 
@@ -150,12 +150,12 @@
         padding-right: 20px;
     }
 
-    .tline::after, .tline.right::after {
-        display: none; /* Ocultar la línea indicadora */
+    .tline::after, .tline.r::after {
+        display: none;
     }
 
     .tl::after {
-        display: none; /* Ocultar la línea vertical */
+        display: none;
     }
 
     .tituloh {

@@ -19,7 +19,7 @@ DOM_evolucion24.innerHTML = `
                 <button class="buttonh"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAe9XH0CrTBuv_L9IutBg7iIVwG5CYoA11uulu4rFhRo8QO6HmeqGLYaO19cIAWDRgrpo&usqp=CAU" alt=""></button>
             </div>
         </div>
-        <div class="tline right">
+        <div class="tline r">
             <div class="tl-c">
                 <h2>Siglos XIX y XX</h2>
                 <h3>Termodinámica</h3>
@@ -35,7 +35,7 @@ DOM_evolucion24.innerHTML = `
                 <button class="buttonh"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3kMP4NLZqqKU85Il0wcecsQ1weVZ4scHvaQ&s" alt=""></button>
             </div>
         </div>
-        <div class="tline left">
+        <div class="tline l">
             <div class="tl-c">
                 <h2> Desarrollo de la Teoria Cuantica </h2>
                 <h3>Modelo Atómico de Bohr (1913)</h3>
@@ -45,7 +45,7 @@ DOM_evolucion24.innerHTML = `
                 <button class="buttonh"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPg-UGfNJBQgIp35GdJ7-JkMdu-VAIZYew_w&s" alt=""></button>
             </div>
         </div>
-        <div class="tline right">
+        <div class="tline r">
             <div class="tl-c">
                 <h2>Segunda Mitad del Siglo XX </h2>
                 <h3>Física de Partículas</h3>
@@ -57,7 +57,7 @@ DOM_evolucion24.innerHTML = `
                 <button class="buttonh"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXAKdANIkVj-uKPMHTTj_jNBPgX4jdxrpwLA&s" alt=""></button>
             </div>
         </div>
-        <div class="tline left">
+        <div class="tline l">
             <div class="tl-c">
                 <h2>Cosmología Moderna</h2>
                 <h3>Modelo Estándar</h3>
@@ -69,7 +69,7 @@ DOM_evolucion24.innerHTML = `
                 <button class="buttonh"><img src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/albert-einstein-1933340-1920_ver_1.jpg" alt=""></button>
             </div>
         </div>
-        <div class="tline right">
+        <div class="tline r">
             <div class="tl-c">
                 <h2>Computación Cuántica y Tecnologías Cuánticas</h2>
                 <h3>Física del Estado Sólido y Materiales Nuevos</h3>
@@ -80,7 +80,7 @@ DOM_evolucion24.innerHTML = `
                 <button class="buttonh"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNy9NQ_iQ4E8DXwhSSSoRZjpHx6COz313QQ&s" alt=""></button>
             </div>
         </div>
-        <div class="tline left">
+        <div class="tline l">
             <div class="tl-c">
                 <h2>Astrofísica</h2>
                 <h3>Descubrimientos Recientes</h3>
