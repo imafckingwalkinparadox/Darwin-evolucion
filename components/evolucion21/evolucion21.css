@@ -1,8 +1,8 @@
 .timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px 30px;
 }
 
 .container {
@@ -86,7 +86,27 @@
     }
 
     .left .content, .right .content {
-        margin-left: 0;
+        margin-left: 0; 
         margin-right: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+
+    .container::after {
+        left: 50%;
+        margin-left: -12.5px;
+    }
+
+    .left, .right {
+        left: 0;
+    }
+
+    .left .content, .right .content {
+        margin: 0;
     }
 }
