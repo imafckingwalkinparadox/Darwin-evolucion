@@ -1,6 +1,6 @@
 let DOM_evolucion21 = document.querySelector("#evolucion21");
 DOM_evolucion21.innerHTML = `
- <div class="timeline">
+ <div class="fjm">
         <div class="container left">
             <div class="content">
                 <h2>1890s</h2>
