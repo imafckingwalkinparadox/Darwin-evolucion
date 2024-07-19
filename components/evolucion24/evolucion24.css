@@ -1,5 +1,5 @@
 .tituloh {
-    background: linear-gradient(90deg, #ff6b6b, #ffcc5c);
+    background: linear-gradient(90deg, #513c2f, #adada5);
     padding: 20px;
     text-align: center;
     position: relative;
@@ -8,170 +8,102 @@
     align-items: center;
     justify-content: center;
     font-size: 45px;
+    color: white;
 }
 
-.body_h {
+.hector {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
 }
 
-.tl {
+.Einstein {
     position: relative;
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 0 10px;
-}
-
-.tl::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #ff6b6b;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
-.tline {
-    padding: 10px 40px;
-    position: relative;
-    width: 50%;
-}
-
-.tline.l {
-    left: 0;
-}
-
-.tline.r {
-    left: 50%;
-}
-
-.tline::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
+    width: 100%;
+    max-width: 3750px;
     background-color: #fff;
-    border: 4px solid #ff6b6b;
-    top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Curie {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Curie:last-child {
+    margin-bottom: 0;
+}
+
+.Galilei {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
     border-radius: 50%;
-    z-index: 1;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tline.r::after {
-    left: -16px;
-}
-
-.tl-c {
-    padding: 20px 30px;
-    background-color: #fff;
-    position: relative;
-    border-radius: 6px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
-
-.tline.l .tl-c {
-    text-align: right;
-}
-
-.tline.r .tl-c {
-    text-align: left;
-}
-
-.tl-c h2 {
-    margin-top: 0;
-    color: #ff6b6b;
-}
-
-.tl-c p {
-    margin: 10px 0 20px;
-}
-
-.buttonh img {
+.Galilei img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.buttonh:hover {
-    background-color: #ff4b4b;
+.Tesla {
+    background-color: #876c59;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
 }
 
-
-@media (max-width: 1024px) {
-    .tline {
-        width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .tline.l, .tline.r {
-        left: 0;
-    }
-
-    .tline::after, .tline.r::after {
-        display: none;
-    }
-
-    .tl::after {
-        display: none;
-    }
-
-    .tline .l .tl-c, .tline .r .tl-c {
-        text-align: center;
-    }
-
-    .tituloh {
-        font-size: 36px;
-        padding: 15px;
-    }
-
-    .tl {
-        margin: 30px auto;
-    }
-
-    .tl-c h2 {
-        font-size: 24px;
-    }
-
-    .tl-c p, .tl-c ul {
-        font-size: 16px;
-    }
+.Tesla h2 {
+    margin: 0;
+    font-size: 1.5em;
 }
 
-@media (max-width: 375px) {
-    .tline {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+.Tesla p {
+    margin: 10px 0 0;
+}
 
-    .tline::after, .tline.r::after {
-        display: none;
-    }
+.Curie::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: #7d573c;
+    border: 2px solid #5a5858;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #f0f0f0;
+}
 
-    .tl::after {
-        display: none;
-    }
+.Curie:nth-child(even) .Tesla {
+    background-color: #636363;
+}
 
-    .tituloh {
-        font-size: 24px;
-        padding: 10px;
-    }
-
-    .tl {
-        margin: 20px auto;
-    }
-
-    .tl-c h2 {
-        font-size: 20px;
-    }
-
-    .tl-c p, .tl-c ul {
-        font-size: 14px;
-    }
+.Curie:nth-child(even)::before {
+    background-color: #707070;
 }
