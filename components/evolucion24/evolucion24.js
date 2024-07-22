@@ -1,8 +1,8 @@
 let DOM_evolucion24 = document.querySelector("#evolucion24");
 DOM_evolucion24.innerHTML = `
-<header>
+<div class="h_DanielV">
     <h1 class="tituloh">Evolucion de la Física</h1>
-</header>
+</div>
 <body class="hector">
     <div class="Einstein">
         <div class="Curie">
